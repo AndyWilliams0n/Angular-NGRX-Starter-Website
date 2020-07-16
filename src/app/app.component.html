@@ -1,0 +1,10 @@
+<nav class="c-nav c-nav--fixed">
+    <a href="#" class="c-logo">BASE</a>
+    <a href="http://www.codedeveloper.co.uk" class="c-nav--link">CodeDeveloper Website</a>
+    <a href="javascript:void(0)" routerLink="/home" class="c-nav--link" [class.is-active]="router.url === '/home'"><i class="material-icons">home</i> Home</a>
+    <a href="javascript:void(0)" routerLink="/add" class="c-nav--link" [class.is-active]="router.url === '/add'"><i class="material-icons">add</i> Add</a>
+</nav>
+
+<div class="c-container">
+    <router-outlet></router-outlet>
+</div>

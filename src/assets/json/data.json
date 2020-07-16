@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "region": "Scotland"
+    }, {
+        "id": 2,
+        "region": "Northern Ireland"
+    }, {
+        "id": 3,
+        "region": "Wales"
+    }, {
+        "id": 4,
+        "region": "North East"
+    }, {
+        "id": 5,
+        "region": "North West"
+    }, {
+        "id": 6,
+        "region": "Yorkshire and the Humber"
+    }, {
+        "id": 7,
+        "region": "West Midlands"
+    }, {
+        "id": 8,
+        "region": "East Midlands"
+    }, {
+        "id": 9,
+        "region": "South West"
+    }, {
+        "id": 10,
+        "region": "South East"
+    }, {
+        "id": 11,
+        "region": "East of England"
+    }, {
+        "id": 12,
+        "region": "Greater London"
+    }
+]
+

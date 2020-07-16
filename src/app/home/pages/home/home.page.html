@@ -1,0 +1,20 @@
+<section class="c-page">
+    <h1>BASE - An Angular v9 Framework Seed With NGRX</h1>
+
+    <p>This site contains code snippets to help setup your app more quickly.</p>
+
+
+    <p><a class="o-button--primary" (click)="fetch()">Load Data Without State Management</a></p>
+
+    <p *ngFor="let uk of regions$ | async">{{ uk.region }}</p>
+
+    <p><a class="o-button--primary" (click)="fetchNGRX()">Load Data With NGRX State Management</a></p>
+
+    <p *ngFor="let uk of regionsNGRX$ | async">{{ uk.region }}</p>
+
+
+    <p>This site also uses STYL by CodeDeveloper, a super lightweight UI theme only 82kb</p>
+
+    <p>(This page has been lazy loaded)</p>
+
+</section>

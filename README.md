@@ -1,4 +1,4 @@
-# CodeDeveloper Angular v9+ Base Website
+# CodeDeveloper Angular v9+ Base Website With NGRX State Management
 
 ## Development server
 

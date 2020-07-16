@@ -15,7 +15,7 @@ export class DataService {
         // console.log('URL', url);
 
         // return this.http.get(url)
-        
+
         return this.http.get('assets/json/data.json')
             .pipe(catchError((error: any) => {
                 this.handleError(error);

@@ -4,13 +4,10 @@
     <p>This site contains code snippets to help setup your app more quickly.</p>
 
 
-    <p><a class="o-button--primary" (click)="fetch()">Load Data Without State Management</a></p>
+    <p><a class="o-button--primary" (click)="homeHelperService.fetchUsingHttpAndNGRX()">Load Data With NGRX State Management</a></p>
+    <p><a class="o-button--secondary" (click)="homeHelperService.removeFromNGRX()">Remove NGRX Data</a></p>
 
-    <p *ngFor="let uk of regions$ | async">{{ uk.region }}</p>
-
-    <p><a class="o-button--primary" (click)="fetchNGRX()">Load Data With NGRX State Management</a></p>
-
-    <p *ngFor="let uk of regionsNGRX$ | async">{{ uk.region }}</p>
+    <p *ngFor="let uk of regionsNGRX">{{ uk.region }}</p>
 
 
     <p>This site also uses STYL by CodeDeveloper, a super lightweight UI theme only 82kb</p>
